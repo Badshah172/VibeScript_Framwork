@@ -1,0 +1,13 @@
+UI {
+    Label("VibeScript VIP Runner")
+    Input()
+    Button("Submit Data")
+}
+
+BACKEND {
+def on_click():
+    print("🚀 VIP App: Button Clicked Successfully!")
+    
+user_name = "Admin"
+print(f"System Ready for {user_name}")
+}
