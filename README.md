@@ -44,7 +44,7 @@ To run your VibeScript application, use the Vibe Engine to parse your code:
 
 ```bash
 python vibe_engine.py app.vibe
-
+```
 ## 📱 Multi-Platform Deployment
 
 VibeScript bridges your logic to native kits for maximum performance.
@@ -54,6 +54,7 @@ VibeScript bridges your logic to native kits for maximum performance.
 | **Desktop** | C++ / Qt / Kivy | PyInstaller |
 | **Android** | Kotlin / JVM Bridge | Buildozer |
 | **iOS** | Swift Bridge | Kivy-iOS / Xcode |
+
 
 ### **▶️ Run Your First App**
 Terminal / Command Prompt me VibeFramework folder open karein:
@@ -81,27 +82,20 @@ buildozer -v android debug
 
 ```
 
-```
-
 #### ** 🍎 iOS Build iOS / Mac required:**
-```bash
+
 Requirements:
 macOS
 Xcode
+```bash
 kivy-ios
+```
 Steps:
 Use kivy-ios to generate an Xcode project
 Compile & sign using Xcode
 Deploy to device or App Store
-```
 
 
-```bash
-pip install buildozer
-buildozer init
-buildozer -v android debug
-
-```
 ---
 
 ## 📄 VibeScript Syntax Example (`app.vibe`)
@@ -129,4 +123,4 @@ Create Button:
 MIT License (Planned)
 
 **Developed with ❤️ by Syed Hassnain ALi Shah**
-```
+
