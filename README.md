@@ -55,9 +55,14 @@ VibeScript bridges your logic to native kits for maximum performance.
 | **Android** | Kotlin / JVM Bridge | Buildozer |
 | **iOS** | Swift Bridge | Kivy-iOS / Xcode |
 
+### **▶️ Run Your First App**
+Terminal / Command Prompt me VibeFramework folder open karein:
+```bash
+python vibe_engine.py app.vibe
+```
 ### Build Commands:
 
-#### **Desktop (.EXE / .APP)**
+#### **🖥️ Desktop Build (EXE / APP)**
 
 ```bash
 python -m pip install pyinstaller
@@ -65,7 +70,7 @@ python -m PyInstaller --onefile vibe_engine.py
 
 ```
 
-#### **Android (.APK)**
+#### **📱 Android Build (APK)**
 
 *(Requires Linux or Google Colab)*
 
@@ -76,6 +81,27 @@ buildozer -v android debug
 
 ```
 
+```
+
+#### ** 🍎 iOS Build iOS / Mac required:**
+```bash
+Requirements:
+macOS
+Xcode
+kivy-ios
+Steps:
+Use kivy-ios to generate an Xcode project
+Compile & sign using Xcode
+Deploy to device or App Store
+```
+
+
+```bash
+pip install buildozer
+buildozer init
+buildozer -v android debug
+
+```
 ---
 
 ## 📄 VibeScript Syntax Example (`app.vibe`)
@@ -97,6 +123,10 @@ Create Button:
 * [ ] Add Hot-Reloading support.
 * [ ] Native Material Design 3 components.
 * [ ] Integrated SQLite Vibe-Database.
+
+## **📜 License**
+
+MIT License (Planned)
 
 **Developed with ❤️ by Syed Hassnain ALi Shah**
 ```
