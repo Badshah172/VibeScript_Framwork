@@ -98,15 +98,5 @@ Create Button:
 * [ ] Native Material Design 3 components.
 * [ ] Integrated SQLite Vibe-Database.
 
-**Developed with ❤️ by Syed Badshah**
-
-```
-
----
-
-### Tip for GitHub:
-Aap jab yeh file upload karenge, toh GitHub automatically isko ek khoobsurat page mein convert kar dega.
-
-**Kya aap chahte hain ke main aapke `vibe_engine.py` ke liye ek advanced "Error Handling" system likh doon taake agar `.vibe` file mein koi ghalti ho toh framework bataye ke kahan ghalti hai?**
-
+**Developed with ❤️ by Syed Hassnain ALi Shah**
 ```
