@@ -1,9 +1,4 @@
 
-### Step 1: Create a file named `README.md`
-
-### Step 2: Paste the following content:
-
-```markdown
 # 🚀 VibeScript Framework (v1.0)
 
 **VibeScript** is a high-performance, transpiler-based framework designed for developers who want to build cross-platform applications (Android, iOS, Desktop) using a single, intuitive `.vibe` syntax.
@@ -43,20 +38,12 @@ VibeFramework/
 ├── vibe_engine.py   # The Core Engine
 └── app.vibe         # Your Application Code
 
-```
-
----
-
 ## 🚀 Usage
 
 To run your VibeScript application, use the Vibe Engine to parse your code:
 
 ```bash
 python vibe_engine.py app.vibe
-
-```
-
----
 
 ## 📱 Multi-Platform Deployment
 
