@@ -1,8 +1,3 @@
-Bilkul! Ek professional framework ke liye ek zabardast **README.md** hona zaroori hai taake log samajh sakein ke aapka **VibeScript** kaam kaise karta hai.
-
-Maine yeh pura GitHub format mein taiyar kar diya hai, jisme installation, architecture, aur platform support ki saari details hain.
-
----
 
 ### Step 1: Create a file named `README.md`
 
